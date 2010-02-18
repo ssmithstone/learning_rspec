@@ -16,13 +16,10 @@ class ContactsController < ApplicationController
     end
   end
 
-
-  def call_rake
-    
-  end
 end
 
 class MyRake
-  def self.call_rake
+  def self.call_rake(args)
+    call_rake  
   end
 end
