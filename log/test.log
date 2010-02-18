@@ -1,0 +1,684 @@
+Rendering contacts/results_list
+Rendering contacts/results_list
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:33:53) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:34:04) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:34:17) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mNewsletter Create (0.6ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:34:44', '2010-02-18 20:34:44')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:34:44) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mPfdlist Create (0.4ms)[0m   [0;1mINSERT INTO "pfdlists" ("created_at", "updated_at") VALUES('2010-02-18 20:37:04', '2010-02-18 20:37:04')[0m
+  [4;35;1mNewsletter Create (0.2ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:37:04', '2010-02-18 20:37:04')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:37:04) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mPdflist Create (0.6ms)[0m   [0;1mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:38:55', '2010-02-18 20:38:55')[0m
+  [4;35;1mNewsletter Create (0.3ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:38:55', '2010-02-18 20:38:55')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:38:55) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:38:55) [POST]
+  Parameters: {"result_list_id"=>"1"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+  [4;36;1mPdflist Create (0.4ms)[0m   [0;1mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:39:29', '2010-02-18 20:39:29')[0m
+  [4;35;1mNewsletter Create (0.3ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:39:29', '2010-02-18 20:39:29')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:29) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:29) [POST]
+  Parameters: {"result_list_id"=>"1"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+  [4;36;1mPdflist Create (0.4ms)[0m   [0;1mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:39:45', '2010-02-18 20:39:45')[0m
+  [4;35;1mNewsletter Create (0.3ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:39:45', '2010-02-18 20:39:45')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:45) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:45) [POST]
+  Parameters: {"result_list_id"=>"1"}
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+  [4;36;1mPdflist Create (0.8ms)[0m   [0;1mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:39:55', '2010-02-18 20:39:55')[0m
+  [4;35;1mNewsletter Create (0.2ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:39:55', '2010-02-18 20:39:55')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:55) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:39:55) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mPdflist Create (0.6ms)[0m   [0;1mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:43:50', '2010-02-18 20:43:50')[0m
+  [4;35;1mNewsletter Create (0.4ms)[0m   [0mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:43:50', '2010-02-18 20:43:50')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:43:50) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:43:50) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:43:50) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:44:04', '2010-02-18 20:44:04')[0m
+  [4;35;1mPdflist Create (0.4ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:44:04', '2010-02-18 20:44:04')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:44:04', '2010-02-18 20:44:04')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:04) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:04) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:04) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:44:35', '2010-02-18 20:44:35')[0m
+  [4;35;1mPdflist Create (0.4ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:44:35', '2010-02-18 20:44:35')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:44:35', '2010-02-18 20:44:35')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:35) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:36) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:44:36) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:45:22', '2010-02-18 20:45:22')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:45:22', '2010-02-18 20:45:22')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:45:22', '2010-02-18 20:45:22')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:45:22) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:45:22) [POST]
+  Parameters: {"result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:45:22) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.7ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:46:13', '2010-02-18 20:46:13')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:46:13', '2010-02-18 20:46:13')[0m
+  [4;36;1mNewsletter Create (0.2ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:46:13', '2010-02-18 20:46:13')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:46:13) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:46:13) [POST]
+  Parameters: {"result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:46:13) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:15', '2010-02-18 20:47:15')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:15', '2010-02-18 20:47:15')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:47:15', '2010-02-18 20:47:15')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:47:15) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 2) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.6ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:19', '2010-02-18 20:47:19')[0m
+  [4;35;1mPdflist Create (0.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:19', '2010-02-18 20:47:19')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:47:19', '2010-02-18 20:47:19')[0m
+  [4;35;1mSQL (1.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:47:19) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 3) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:56', '2010-02-18 20:47:56')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:47:56', '2010-02-18 20:47:56')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:47:56', '2010-02-18 20:47:56')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:47:56) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:47:56) [POST]
+  Parameters: {"result_list_id"=>"1"}
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:47:56) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:48:27', '2010-02-18 20:48:27')[0m
+  [4;35;1mPdflist Create (0.4ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:48:27', '2010-02-18 20:48:27')[0m
+  [4;36;1mNewsletter Create (1.0ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:48:27', '2010-02-18 20:48:27')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:27) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 2) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:27) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:27) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:48:49', '2010-02-18 20:48:49')[0m
+  [4;35;1mPdflist Create (0.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:48:49', '2010-02-18 20:48:49')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:48:49', '2010-02-18 20:48:49')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:49) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:49) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:48:49) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:49:34', '2010-02-18 20:49:34')[0m
+  [4;35;1mPdflist Create (1.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:49:34', '2010-02-18 20:49:34')[0m
+  [4;36;1mNewsletter Create (0.9ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:49:34', '2010-02-18 20:49:34')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:34) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 3ms (View: 1, DB: 3) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:34) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:34) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:49:48', '2010-02-18 20:49:48')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:49:48', '2010-02-18 20:49:48')[0m
+  [4;36;1mNewsletter Create (0.5ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:49:48', '2010-02-18 20:49:48')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:48) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:48) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:49:48) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:50:09', '2010-02-18 20:50:09')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:50:09', '2010-02-18 20:50:09')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:50:09', '2010-02-18 20:50:09')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:50:09) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:50:09) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:50:09) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.5ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:51:36', '2010-02-18 20:51:36')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:51:36', '2010-02-18 20:51:36')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:51:36', '2010-02-18 20:51:36')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:36) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:36) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:36) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:51:59', '2010-02-18 20:51:59')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:51:59', '2010-02-18 20:51:59')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:51:59', '2010-02-18 20:51:59')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:59) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:59) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:51:59) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:52:23', '2010-02-18 20:52:23')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:52:23', '2010-02-18 20:52:23')[0m
+  [4;36;1mNewsletter Create (0.5ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:52:23', '2010-02-18 20:52:23')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:52:23) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:52:23) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:52:23) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.7ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:53:30', '2010-02-18 20:53:30')[0m
+  [4;35;1mPdflist Create (0.4ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:53:30', '2010-02-18 20:53:30')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:53:30', '2010-02-18 20:53:30')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:53:30) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 2) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:53:30) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:53:30) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:59:16', '2010-02-18 20:59:16')[0m
+  [4;35;1mPdflist Create (0.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:59:16', '2010-02-18 20:59:16')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:59:16', '2010-02-18 20:59:16')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:16) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 2ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:16) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:16) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 20:59:45', '2010-02-18 20:59:45')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 20:59:45', '2010-02-18 20:59:45')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 20:59:45', '2010-02-18 20:59:45')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:45) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 3ms (View: 0, DB: 1) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:45) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 20:59:45) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Rendering contacts/result_list
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:03:31', '2010-02-18 21:03:31')[0m
+  [4;35;1mPdflist Create (0.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:03:31', '2010-02-18 21:03:31')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:03:31', '2010-02-18 21:03:31')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:03:31) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:03:31) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:03:31) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list to html (for 0.0.0.0 at 2010-02-18 21:03:31) [POST]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:04:08', '2010-02-18 21:04:08')[0m
+  [4;35;1mPdflist Create (0.2ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:04:08', '2010-02-18 21:04:08')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:04:08', '2010-02-18 21:04:08')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:08) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:08) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:08) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:04:19', '2010-02-18 21:04:19')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:04:19', '2010-02-18 21:04:19')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:04:19', '2010-02-18 21:04:19')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:19) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:19) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:04:19) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list to html (for 0.0.0.0 at 2010-02-18 21:04:19) [POST]
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?format=html]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.7ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:06:06', '2010-02-18 21:06:06')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:06:06', '2010-02-18 21:06:06')[0m
+  [4;36;1mNewsletter Create (0.5ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:06:06', '2010-02-18 21:06:06')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:06:06) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 2ms (DB: 2) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:06:07) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:06:07) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list to html (for 0.0.0.0 at 2010-02-18 21:06:07) [POST]
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?format=html]
+
+
+Processing ContactsController#result_list to js (for 0.0.0.0 at 2010-02-18 21:06:07) [POST]
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?format=js]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.4ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:07:09', '2010-02-18 21:07:09')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:07:09', '2010-02-18 21:07:09')[0m
+  [4;36;1mNewsletter Create (0.4ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:07:09', '2010-02-18 21:07:09')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:07:09) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:07:09) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:07:09) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list to html (for 0.0.0.0 at 2010-02-18 21:07:09) [POST]
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?format=html]
+
+
+Processing ContactsController#result_list to js (for 0.0.0.0 at 2010-02-18 21:07:09) [POST]
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/contacts/result_list?format=js]
+Rendering contacts/results_list
+  [4;36;1mResultList Create (0.7ms)[0m   [0;1mINSERT INTO "result_lists" ("created_at", "updated_at") VALUES('2010-02-18 21:08:38', '2010-02-18 21:08:38')[0m
+  [4;35;1mPdflist Create (0.3ms)[0m   [0mINSERT INTO "pdflists" ("created_at", "updated_at") VALUES('2010-02-18 21:08:38', '2010-02-18 21:08:38')[0m
+  [4;36;1mNewsletter Create (0.3ms)[0m   [0;1mINSERT INTO "newsletters" ("created_at", "updated_at") VALUES('2010-02-18 21:08:38', '2010-02-18 21:08:38')[0m
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:08:38) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 1ms (DB: 1) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:08:38) [POST]
+  Parameters: {"result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?result_list_id=1]
+
+
+Processing ContactsController#result_list (for 0.0.0.0 at 2010-02-18 21:08:38) [POST]
+  Parameters: {"newsletter_id"=>"1", "result_list_id"=>"1"}
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?newsletter_id=1&result_list_id=1]
+
+
+Processing ContactsController#result_list to html (for 0.0.0.0 at 2010-02-18 21:08:39) [POST]
+Redirected to http://test.host/contacts
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/contacts/result_list?format=html]
